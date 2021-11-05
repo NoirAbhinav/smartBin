@@ -8,43 +8,51 @@
     rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Raleway"
   />
-  <style>
-    body,
-    h1 {
-      font-family: "Raleway", sans-serif;
-    }
-    body,
-    html {
-      height: 100%;
-    }
-    .bgimg {
-      background-image: url("./images/main page.jpg");
-      min-height: 100%;
-      background-position: center;
-      background-size: cover;
-    }
-  </style>
-  <!--<script src="./indexJs.js"> -->
+  <link rel="stylesheet" href="./mainIndex.css">
+  
+ <link rel="shortcut icon" type="image/jpg" href="./images/logo1.jpg"/>
   <body>
-    <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
-      <div class="w3-display-topleft w3-padding-large w3-xlarge">
-        <img src="./images/logo3.png" height="60" width="60" />
-      </div>
+    <div>
+      <div class="planet-holder">
+  <div class="planet">
+    <div class="cloud"></div>
+    <div class="cloud"></div>
+    <div class="cloud"></div>
+    <div class="cloud"></div>
+    <div class="cloud"></div>
+    <div class="cloud"></div>
+  </div>
+
+  <div class="outer">
+    <div class="outerClouds"></div>
+    <div class="outerClouds"></div>
+    <div class="outerClouds"></div>
+    <div class="outerClouds"></div>
+    <div class="outerClouds"></div>
+    <div class="outerClouds"></div>
+    <div class="outerClouds"></div>
+  </div>
+
+  <div class="text">SMART BIN</div>
+</div>
+
       <div class="w3-display-middle">
-        <h1 class="w3-jumbo w3-animate-top">SMART BIN</h1>
-        <hr class="w3-border-grey" style="margin: auto; width: 40%" />
-        <p class="w3-large w3-center">Enter the pincode:
-        <form action="./second_page.html">
+         <br><br><br><br><br><br><br><br><br>
+        <form id="formInput" method="POST">
           <label for="pincode"></label>
           <input
-            type="text"
-            id="pincode"
+            type="number"
+            id="pincode1"
+            class="input"
+            placeholder= "Enter Pincode"
             name="pincode"
-            style="margin-left: 5%; font-size: 25px; font-family: Arial;"
-          /><br /><br />
-          <button id="submit" style="border-color: green; border-radius: 2px; padding: 5px; margin-left: 23%; font-color: black; font-family: Eleplant; font-size: 20px; background: orange ">Search with Pincode</button>
-        </form></p>
+          required/><br /><br />
+           <button class="btn fourth" id="submitBT" >Search Bins</button>
+        </form>
+        <script src="indexJS.js"></script>
+        </p>
       </div>
     </div>
+    
   </body>
 </html>

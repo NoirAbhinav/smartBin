@@ -1,28 +1,28 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 body {
-  font-family: "Open Sans", sans-serif;
-  background: #063bac;
+  font-family: "Arial", sans-serif;
+  background-image: url("./images/main page.jpg");
 }
 
 .container {
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: -30px;
   width: 980px;
 }
 header {
   display: flex;
   align-items: center;
   font-size: 1.25em;
-  margin:20px 4%;
+  margin: 20px 4%;
   font-weight: 600;
   color: #fcf9f9;
   padding: 20px;
   box-sizing: border-box;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   text-align: center;
 }
 
@@ -58,7 +58,7 @@ ul.task-items li.item {
   display: flex;
   align-items: center;
   margin: 20px 4%;
-  width:850px;
+  width: 850px;
   padding: 20px;
   background: rgb(241, 239, 239);
   border-radius: 5px;
@@ -74,7 +74,7 @@ ul.task-items li.item.type3 .task .icon {
   background: #9575cd;
 }
 ul.task-items li.item.type4 .task .icon {
-  background: #4FC3F7;
+  background: #4fc3f7;
 }
 ul.task-items li.item .task {
   display: flex;
@@ -84,7 +84,7 @@ ul.task-items li.item .task {
   margin-left: 10px;
   justify-content: space-around;
 }
-ul.task-items li.item .task .Id-col{
+ul.task-items li.item .task .Id-col {
   display: flex;
   background: #eeeeee;
   margin-left: 20px;
@@ -112,10 +112,10 @@ ul.task-items li.item .status .icon.risk {
   background: red;
 }
 ul.task-items li.item .status .icon.warning {
-  background: #FFA000;
+  background: #ffa000;
 }
 ul.task-items li.item .status .icon.off {
-  background: #BF360C;
+  background: #bf360c;
 }
 ul.task-items li.item .progress {
   width: 190px;
@@ -156,4 +156,26 @@ ul.task-items li.item .user {
 }
 ul.task-items li.item .user img {
   border-radius: 50%;
+}
+
+
+.back-icon {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+.back-icon__row {
+  height: 10px;
+  width: 30px;
+  display: flex;
+}
+.back-icon__elem {
+  height: 8px;
+  width: 8px;
+  margin-right: 2px;
+  margin-bottom: 2px;
+  background: red;
+  border-radius: 38%;
 }

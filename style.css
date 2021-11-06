@@ -10,6 +10,7 @@ body {
   margin-top: -30px;
   width: 980px;
 }
+
 header {
   display: flex;
   align-items: center;
@@ -157,7 +158,6 @@ ul.task-items li.item .user {
 ul.task-items li.item .user img {
   border-radius: 50%;
 }
-
 
 .back-icon {
   width: 30px;

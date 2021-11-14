@@ -21,7 +21,8 @@
   >
     <u> SMART BIN</u>
   </h1>
-  <body>
+  <script type="module" src="try.js"></script>
+  <body onload='test()'>
     <a class="back-icon" href="index.html">
       <div class="back-icon__row">
         <div class="back-icon__elem"></div>
@@ -43,7 +44,7 @@
     <section class="container">
       <!-- Header Bar -->
       <header>
-        <div class="Id-col">
+        <div class="Id">
           <label> Bin Id. </label>
         </div>
 
@@ -51,23 +52,26 @@
           <label> Status </label>
         </div>
 
-        <div class="progress-col">
-          <label> Progress </label>
+        <div class="Dry-col">
+          <label> Dry Waste </label>
         </div>
 
-        <div class="dates-col">
+        <div class="Wet-col">
+          <label> Wet Waste </label>
+        </div>
+
+        <div class="Elec-col">
+          <label> Electronic Waste </label>
+        </div>
+
+        <div class="Date-col">
           <label> Last Date </label>
         </div>
 
-        <div class="priority-col">
-          <label> Priority </label>
-        </div>
-
-        <div class="icon-col">
-          <i class="icon fa fa-user-o"> </i>
+        <div class="add-col">
+          <label> Address </label>
         </div>
       </header>
-
       <!-- List Items -->
       <ul class="task-items">
         <!-- List Item -->
@@ -83,149 +87,28 @@
             <div class="text">Off Track</div>
           </div>
 
-          <div class="progress">
+          <div class="Dry-col">
+            <progress value="15" max="100" />
+          </div>
+          <div class="Wet-col">
+            <progress value="15" max="100" />
+          </div>
+          <div class="Elec-col">
             <progress value="15" max="100" />
           </div>
 
           <div class="dates">
             <div class="bar"></div>
+            <div class="text">12/11/2021</div>          
           </div>
 
-          <div class="priority">
-            <div class="bar"></div>
+          <div class="add-col">
+            <div class="text">India</div>
           </div>
-
-          <div class="user">
-            <img
-              src="https://source.unsplash.com/40x40/?indian"
-              alt="Image 001"
-              class="owner-img"
-            />
-          </div>
+        
         </li>
 
-        <li class="item type4">
-          <div class="task">
-            <div class="Id"></div>
-          </div>
-
-          <div class="status">
-            <div class="icon warning"></div>
-            <div class="text">At Risk</div>
-          </div>
-
-          <div class="progress">
-            <progress value="45" max="100" />
-          </div>
-
-          <div class="dates">
-            <div class="bar"></div>
-          </div>
-
-          <div class="priority">
-            <div class="bar"></div>
-          </div>
-
-          <div class="user">
-            <img
-              src="https://source.unsplash.com/40x40/?face"
-              alt="Image 001"
-              class="owner-img"
-            />
-          </div>
-        </li>
-
-        <li class="item type2">
-          <div class="task">
-            <div class="Id"></div>
-          </div>
-
-          <div class="status">
-            <div class="icon off"></div>
-            <div class="text">Off Track</div>
-          </div>
-
-          <div class="progress">
-            <progress value="10" max="100" />
-          </div>
-
-          <div class="dates">
-            <div class="bar"></div>
-          </div>
-
-          <div class="priority">
-            <div class="bar"></div>
-          </div>
-
-          <div class="user">
-            <img
-              src="https://source.unsplash.com/40x40/?european"
-              alt="Image 001"
-              class="owner-img"
-            />
-          </div>
-        </li>
-
-        <li class="item type2">
-          <div class="task">
-            <div class="Id"></div>
-          </div>
-
-          <div class="status">
-            <div class="text">On Track</div>
-          </div>
-
-          <div class="progress">
-            <progress value="75" max="100" />
-          </div>
-
-          <div class="dates">
-            <div class="bar"></div>
-          </div>
-
-          <div class="priority">
-            <div class="bar"></div>
-          </div>
-
-          <div class="user">
-            <img
-              src="https://source.unsplash.com/40x40/?asian"
-              alt="Image 001"
-              class="owner-img"
-            />
-          </div>
-        </li>
-
-        <li class="item type1">
-          <div class="task">
-            <div class="Id"></div>
-          </div>
-
-          <div class="status">
-            <div class="icon warning"></div>
-            <div class="text">At Risk</div>
-          </div>
-
-          <div class="progress">
-            <progress value="35" max="100" />
-          </div>
-
-          <div class="dates">
-            <div class="bar"></div>
-          </div>
-
-          <div class="priority">
-            <div class="bar"></div>
-          </div>
-
-          <div class="user">
-            <img
-              src="https://source.unsplash.com/40x40/?american"
-              alt="Image 001"
-              class="owner-img"
-            />
-          </div>
-        </li>
+        
       </ul>
     </section>
     <!-- partial -->

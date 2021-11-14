@@ -19,7 +19,7 @@ header {
   display: flex;
   align-items: center;
   font-size: 1.25em;
-  margin: 20px 4%;
+  margin: 20px 1%;
   font-weight: 600;
   color: #fcf9f9;
   padding: 20px;
@@ -31,56 +31,46 @@ header {
   text-align: center;
 }
 
-header .Id-col {
+header .Id {
   width: 100px;
+  margin-left: 22px;
 }
 header .status-col {
   width: 145px;
 }
-header .progress-col {
-  width: 190px;
-}
-header .dates-col {
-  width: 150px;
-}
-header .priority-col {
+header .Dry-col {
   width: 170px;
 }
-header .icon-col {
-  width: 30px;
-  text-align: right;
+header .Wet-col {
+  width: 170px;
 }
+header .Elec-col {
+  width: 170px;
+}
+header .date-col {
+  width: 145px;
+}
+header .add-col {
+  width: 145px;
+}
+
 header label {
   display: inline-block;
   margin: 0 20px;
   text-align: center;
-}
-header .icon-col {
-  padding-right: 20px;
 }
 
 ul.task-items li.item {
   display: flex;
   align-items: center;
   margin: 20px 4%;
-  width: 850px;
+  width: 940px;
   padding: 20px;
   background: rgb(241, 239, 239);
   border-radius: 5px;
   box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.1);
 }
-ul.task-items li.item.type1 .task .icon {
-  background: #9575cd;
-}
-ul.task-items li.item.type2 .task .icon {
-  background: #f48fb1;
-}
-ul.task-items li.item.type3 .task .icon {
-  background: #9575cd;
-}
-ul.task-items li.item.type4 .task .icon {
-  background: #4fc3f7;
-}
+
 ul.task-items li.item .task {
   display: flex;
   text-align: right;
@@ -89,14 +79,14 @@ ul.task-items li.item .task {
   margin-left: 10px;
   justify-content: space-around;
 }
-ul.task-items li.item .task .Id-col {
+ul.task-items li.item .task .Id {
   display: flex;
   background: #eeeeee;
-  margin-left: 20px;
-  font-size: 2em;
-  width: 200px;
+  margin-left: 0;
+  font-size: 1.25em;
+  width: 20px;
   height: 25px;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 ul.task-items li.item .status {
   display: flex;
@@ -104,11 +94,11 @@ ul.task-items li.item .status {
   font-size: 1em;
   color: #2e7d32;
   width: 145px;
-  margin-left: 30px;
+  margin-left: 10px;
 }
 ul.task-items li.item .status .icon {
   background: #2e7d32;
-  margin-right: 10px;
+  margin-right: 5px;
   width: 14px;
   height: 14px;
   border-radius: 50%;
@@ -122,47 +112,74 @@ ul.task-items li.item .status .icon.warning {
 ul.task-items li.item .status .icon.off {
   background: #bf360c;
 }
-ul.task-items li.item .progress {
+ul.task-items li.item .Dry-col {
   width: 190px;
 }
-ul.task-items li.item .progress progress {
+ul.task-items li.item .Dry-col progress {
   display: block;
   margin-left: 0;
   -webkit-appearance: none;
   height: 12.5px;
   width: 142.5px;
 }
-ul.task-items li.item .progress progress::-webkit-progress-bar {
+ul.task-items li.item .Dry-col progress::-webkit-progress-bar {
   background-color: #eeeeee;
   border-radius: 5px;
 }
-ul.task-items li.item .progress ::-webkit-progress-value {
+ul.task-items li.item .Dry-col ::-webkit-progress-value {
   background-color: #4dd0e1;
   border-radius: 5px;
 }
+
+ul.task-items li.item .Wet-col {
+  width: 190px;
+}
+ul.task-items li.item .Wet-col progress {
+  display: block;
+  margin-left: 0;
+  -webkit-appearance: none;
+  height: 12.5px;
+  width: 142.5px;
+}
+ul.task-items li.item .Wet-col progress::-webkit-progress-bar {
+  background-color: #eeeeee;
+  border-radius: 5px;
+}
+ul.task-items li.item .Wet-col ::-webkit-progress-value {
+  background-color: #4dd0e1;
+  border-radius: 5px;
+}
+
+ul.task-items li.item .Elec-col {
+  width: 190px;
+}
+ul.task-items li.item .Elec-col progress {
+  display: block;
+  margin-left: 0px;
+  -webkit-appearance: none;
+  height: 12.5px;
+  width: 142.5px;
+}
+ul.task-items li.item .Elec-col progress::-webkit-progress-bar {
+  background-color: #eeeeee;
+  border-radius: 5px;
+}
+ul.task-items li.item .Elec-col ::-webkit-progress-value {
+  background-color: #4dd0e1;
+  border-radius: 5px;
+}
+
 ul.task-items li.item .dates {
+  margin-left: 20px 5%;
   width: 150px;
 }
 ul.task-items li.item .dates .bar,
-ul.task-items li.item .priority .bar {
-  background: #eeeeee;
-  width: 100px;
-  height: 25px;
-  border-radius: 15px;
-}
-ul.task-items li.item .priority {
-  width: 144.5px;
-}
-ul.task-items li.item .priority .bar {
-  background: #ffcdd2;
-}
-ul.task-items li.item .user {
-  width: 30px;
-}
-ul.task-items li.item .user img {
-  border-radius: 50%;
-}
 
+ul.task-items li.item .add-col {
+  margin-left: 20px 5%;
+  width: 150px;
+}
+ul.task-items li.item .add-col .bar,
 .back-icon {
   width: 30px;
   height: 30px;

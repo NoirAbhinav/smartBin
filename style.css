@@ -120,7 +120,7 @@ ul.task-items li.item .Dry-col progress {
   margin-left: 0;
   -webkit-appearance: none;
   height: 12.5px;
-  width: 200.5px;
+  width: 148.5px;
 }
 ul.task-items li.item .Dry-col progress::-webkit-progress-bar {
   background-color: #eeeeee;
@@ -139,7 +139,7 @@ ul.task-items li.item .Wet-col progress {
   margin-left: 0;
   -webkit-appearance: none;
   height: 12.5px;
-  width: 247.5px;
+  width: 148.5px;
 }
 ul.task-items li.item .Wet-col progress::-webkit-progress-bar {
   background-color: #eeeeee;
@@ -158,7 +158,7 @@ ul.task-items li.item .Elec-col progress {
   margin-left: 0px;
   -webkit-appearance: none;
   height: 12.5px;
-  width: 150.5px;
+  width: 148.5px;
 }
 ul.task-items li.item .Elec-col progress::-webkit-progress-bar {
   background-color: #eeeeee;

@@ -92,12 +92,12 @@ ul.task-items li.item .status {
   display: flex;
   align-items: center;
   font-size: 1em;
-  color: #2e7d32;
+  color: #000000;
   width: 145px;
   margin-left: 10px;
 }
 ul.task-items li.item .status .icon {
-  background: #2e7d32;
+  background: #d40000;
   margin-right: 5px;
   width: 14px;
   height: 14px;

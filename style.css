@@ -12,7 +12,7 @@ body {
 .container {
   margin: 0 auto;
   margin-top: -30px;
-  width: 980px;
+  width: 1050px;
 }
 
 header {
@@ -52,6 +52,7 @@ header .date-col {
 }
 header .add-col {
   width: 145px;
+  margin-left: 30px;
 }
 
 header label {
@@ -64,7 +65,7 @@ ul.task-items li.item {
   display: flex;
   align-items: center;
   margin: 20px 4%;
-  width: 940px;
+  width: 1050px;
   padding: 20px;
   background: rgb(241, 239, 239);
   border-radius: 5px;
@@ -136,10 +137,10 @@ ul.task-items li.item .Wet-col {
 }
 ul.task-items li.item .Wet-col progress {
   display: block;
-  margin-left: 0;
+  margin-left: -80px;
   -webkit-appearance: none;
   height: 12.5px;
-  width: 148.5px;
+  width: 708.5px;
 }
 ul.task-items li.item .Wet-col progress::-webkit-progress-bar {
   background-color: #eeeeee;
@@ -155,10 +156,11 @@ ul.task-items li.item .Elec-col {
 }
 ul.task-items li.item .Elec-col progress {
   display: block;
-  margin-left: 0px;
+  margin-left: -90px;
   -webkit-appearance: none;
   height: 12.5px;
-  width: 148.5px;
+  width: 348.5px;
+  
 }
 ul.task-items li.item .Elec-col progress::-webkit-progress-bar {
   background-color: #eeeeee;
@@ -170,13 +172,14 @@ ul.task-items li.item .Elec-col ::-webkit-progress-value {
 }
 
 ul.task-items li.item .dates {
-  margin-left: 20px 5%;
-  width: 150px;
+  margin-left: -120px;
+  margin-right:30px;
+  width: 100px;
 }
 ul.task-items li.item .dates .bar,
 
 ul.task-items li.item .add-col {
-  margin-left: 20px 5%;
+  margin-left: 20px 6%;
   width: 150px;
 }
 ul.task-items li.item .add-col .bar,

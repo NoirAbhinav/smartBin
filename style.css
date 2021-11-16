@@ -120,14 +120,14 @@ ul.task-items li.item .Dry-col progress {
   margin-left: 0;
   -webkit-appearance: none;
   height: 12.5px;
-  width: 142.5px;
+  width: 150.5px;
 }
 ul.task-items li.item .Dry-col progress::-webkit-progress-bar {
   background-color: #eeeeee;
   border-radius: 5px;
 }
 ul.task-items li.item .Dry-col ::-webkit-progress-value {
-  background-color: #4dd0e1;
+  background-color:#1914a6;
   border-radius: 5px;
 }
 
@@ -139,14 +139,14 @@ ul.task-items li.item .Wet-col progress {
   margin-left: 0;
   -webkit-appearance: none;
   height: 12.5px;
-  width: 142.5px;
+  width: 167.5px;
 }
 ul.task-items li.item .Wet-col progress::-webkit-progress-bar {
   background-color: #eeeeee;
   border-radius: 5px;
 }
 ul.task-items li.item .Wet-col ::-webkit-progress-value {
-  background-color: #4dd0e1;
+  background-color: #1914a6;
   border-radius: 5px;
 }
 
@@ -165,7 +165,7 @@ ul.task-items li.item .Elec-col progress::-webkit-progress-bar {
   border-radius: 5px;
 }
 ul.task-items li.item .Elec-col ::-webkit-progress-value {
-  background-color: #4dd0e1;
+  background-color: #1914a6;
   border-radius: 5px;
 }
 
